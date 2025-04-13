@@ -587,10 +587,11 @@ html, body {
   border-radius: 44px;
   background: #eee;
 }
-@media (max-width: 435) {
+@media (max-width: 435px) {
   .tab-controls {
     display: flex;
     flex-direction: column;
+    padding: 3px;
   }
 }
 
@@ -615,6 +616,11 @@ html, body {
 }
 .tab-controls__btn--active:hover {
   background-color: #fff;
+}
+@media (max-width: 435px) {
+  .tab-controls__btn {
+    padding: 7px 45%;
+  }
 }
 
 .card {
