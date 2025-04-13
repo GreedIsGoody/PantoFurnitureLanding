@@ -1,0 +1,20 @@
+.read-more {
+    display:inline-flex;
+    gap: 13px;
+    align-items: center;
+
+    color: var(--accent);
+    font-weight: 400;
+    line-height: 1.85;
+    font-size: 14px;
+    
+
+    &::after {
+        content: url('./../images/icons/arrow-right.svg');
+        height:24px;
+    }
+
+    &--large {
+        font-size: 18px;
+    }
+}
