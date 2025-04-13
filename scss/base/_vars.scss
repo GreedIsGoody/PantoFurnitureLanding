@@ -56,4 +56,10 @@ body {
     @media (max-width:629px) {
         @content;
     }
+   
+}
+@mixin mob() {
+    @media (max-width:435) {
+        @content;
+    }
 }

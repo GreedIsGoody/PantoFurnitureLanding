@@ -587,6 +587,12 @@ html, body {
   border-radius: 44px;
   background: #eee;
 }
+@media (max-width: 435) {
+  .tab-controls {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .tab-controls__btn {
   height: 45px;

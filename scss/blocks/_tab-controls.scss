@@ -4,6 +4,11 @@
     align-items: center;
     border-radius: 44px;
     background: #eee;
+
+    @include mob() {
+        display:flex;
+        flex-direction: column;
+    }
 }
 .tab-controls__btn {
     height: 45px;
